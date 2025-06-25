@@ -1,0 +1,91 @@
+.boxshadow {
+  box-shadow: 10px 10px 10px rgb(61, 5, 61);
+}
+
+.create {
+  transition: all 0.5s ease;
+}
+
+.create:hover {
+  filter: drop-shadow(4px 4px 10px rgba(252, 68, 255, 0.661));
+
+}
+
+.icons {
+  color: purple;
+  filter: drop-shadow(4px 4px 10px rgb(0, 0, 0));
+  transition: all 0.4s ease;
+
+}
+
+body {
+  z-index: 1;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  /* To place particles behind other content */
+}
+
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 30px;
+  width: 100%;
+  margin: auto;
+  height: 3px;
+  background: white;
+  transform: scaleX(0);
+  border-radius: 10px;
+  transition: 0.5s all ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1.2);
+}
+
+.nav-link:hover {
+  color: rgb(196, 172, 172);
+}
+
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: indigo;
+  border-radius: 1000px;
+}
+
+.social-icons {
+  border-radius: 50px;
+  transition: all 0.4s ease;
+  filter: drop-shadow(4px 4px 10px);
+  box-shadow: 0px 0px 10px ;
+ }
+
+ @keyframes slide-in {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.5s ease-out;
+}
