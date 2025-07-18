@@ -8,7 +8,7 @@ const Profile = () => {
     const [user, setUser] = useState(null); // Initial state for user data
     const [loading, setLoading] = useState(true); // Track loading state
     const [error, setError] = useState(null); // For error handling
-
+    
     const history = useNavigate();
     const handleBotClick = (botId) => {
         history(`/bot/${botId}`);

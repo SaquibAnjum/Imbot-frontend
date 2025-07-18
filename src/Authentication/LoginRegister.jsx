@@ -30,7 +30,7 @@ const LoginRegister = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const url = "https://imbot-backend.vercel.app"
+  const url = "http://localhost:3000"
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (isRegister) {

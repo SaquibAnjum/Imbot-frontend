@@ -14,6 +14,7 @@ export default function Header() {
   const [searchBox, setSearchBox] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const { user } = useContext(UserContext);
+  console.log(user)
   const [searchResults, setSearchResults] = useState([]);
   const searchBoxRef = useRef(null);
   useEffect(() => {
@@ -125,7 +126,7 @@ export default function Header() {
               <div><GoDependabot className='text-xl ' /></div>
               <div className='text-xs'>Your Bots</div>
             </a>
-            <a href={`/profile/${user && user._id}`} className='p-2  px-3  text-sm cursor-pointer flex  gap-2 items-center  m-2 hover:text-indigo-600'>
+            <a href={`/profile/${user._id}`} className='p-2  px-3  text-sm cursor-pointer flex  gap-2 items-center  m-2 hover:text-indigo-600'>
               <div><FaUserCircle className='text-xl ' /></div>
               <div className='text-xs'>Profile</div>
             </a>
