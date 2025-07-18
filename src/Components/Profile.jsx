@@ -17,7 +17,7 @@ const Profile = () => {
     // Function to fetch user data based on userId
     const FindUser = async () => {
         try {
-            const response = await fetch(`https://imbot-backend.vercel.app/api/auth/find-user/${userId}`);
+            const response = await fetch(`https://imbot-backend-murex.vercel.app/api/auth/find-user/${userId}`);
             if (!response.ok) {
                 throw new Error('Failed to fetch user data');
             }

@@ -30,7 +30,7 @@ const LoginRegister = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const url = "http://localhost:3000"
+  const url = "https://imbot-backend-murex.vercel.app"
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (isRegister) {

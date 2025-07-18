@@ -11,7 +11,7 @@ export const UserProvider = ({ children }) => {
 
     const getUser = async () => {
         try {
-            const response = await fetch('http://localhost:3000/api/auth/getuser', {
+            const response = await fetch('https://imbot-backend-murex.vercel.app/api/auth/getuser', {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ export const UserProvider = ({ children }) => {
 
     const deleteBot = async (botId) => {
         try {
-            const response = await fetch(`https://imbot-backend.vercel.app/api/auth/delete-bot/${user._id}/${botId}`, {
+            const response = await fetch(`https://imbot-backend-murex.vercel.app/api/auth/delete-bot/${user._id}/${botId}`, {
                 method: "DELETE",
                 headers: {
                     'Content-Type': 'application/json'

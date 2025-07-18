@@ -80,7 +80,7 @@ const CreateBot = () => {
 
     const videoId = getYoutubeVideoId(youtubeLink);
     if (videoId) {
-      fetch('http://localhost:3000/api/youtube/get-transcript', {
+      fetch('https://imbot-backend-murex.vercel.app/api/youtube/get-transcript', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -108,7 +108,7 @@ const CreateBot = () => {
 
     try {
       setworking(true);
-      const response = await fetch('http://localhost:3000/api/pdf/upload-pdf', {
+      const response = await fetch('https://imbot-backend-murex.vercel.app/api/pdf/upload-pdf', {
         method: 'POST',
         body: formData,
       });
@@ -138,7 +138,7 @@ const CreateBot = () => {
     if (!inputText || !botName) return;
 
     try {
-      const response = await fetch('http://localhost:3000/api/pdf/store-in-db', {
+      const response = await fetch('https://imbot-backend-murex.vercel.app/api/pdf/store-in-db', {
         method: 'POST',
         headers: {
           Authorization: localStorage.getItem('token'),
@@ -368,7 +368,7 @@ export default CreateBot;
 
 //     const videoId = getYoutubeVideoId(youtubeLink);
 //     if (videoId) {
-//       fetch('http://localhost:3000/api/youtube/get-transcript', {
+//       fetch('https://imbot-backend-murex.vercel.app/api/youtube/get-transcript', {
 //         method: 'POST',
 //         headers: { 'Content-Type': 'application/json' },
 //         body: JSON.stringify({ videoId })
@@ -394,7 +394,7 @@ export default CreateBot;
 
 //     try {
 //       setworking(true);
-//       const response = await fetch('http://localhost:3000/api/pdf/upload-pdf', {
+//       const response = await fetch('https://imbot-backend-murex.vercel.app/api/pdf/upload-pdf', {
 //         method: 'POST',
 //         body: formData,
 //       });
@@ -427,7 +427,7 @@ export default CreateBot;
 //       let inputText = '';
 
 //       if (inputType.web) {
-//         const res = await fetch('http://localhost:3000/api/web/extract', {
+//         const res = await fetch('https://imbot-backend-murex.vercel.app/api/web/extract', {
 //           method: 'POST',
 //           headers: { 'Content-Type': 'application/json' },
 //           body: JSON.stringify({ url: webLink }),
@@ -444,7 +444,7 @@ export default CreateBot;
 //         inputText = getInputText();
 //       }
 
-//       const response = await fetch('http://localhost:3000/api/pdf/store-in-db', {
+//       const response = await fetch('https://imbot-backend-murex.vercel.app/api/pdf/store-in-db', {
 //         method: 'POST',
 //         headers: {
 //           Authorization: localStorage.getItem('token'),

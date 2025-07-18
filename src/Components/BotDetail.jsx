@@ -21,7 +21,7 @@ const[mute, setmute]=useState(false);
     useEffect(() => {
         const findUser = async () => {
             try {
-                const response = await fetch(`http://localhost:3000/api/auth/find-user/${currUserId}`);
+                const response = await fetch(`https://imbot-backend-murex.vercel.app/api/auth/find-user/${currUserId}`);
                 if (!response.ok) throw new Error("User not found");
                 const data = await response.json();
                 setUser(data);

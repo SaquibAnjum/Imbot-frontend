@@ -35,7 +35,7 @@ export default function Header() {
 
     if (query.length > 0) {
       try {
-        const response = await axios.post('https://imbot-backend.vercel.app/api/auth/search', { query });
+        const response = await axios.post('https://imbot-backend-murex.vercel.app/api/auth/search', { query });
         if (response.data.success) {
           setSearchResults(response.data.users);
         }
