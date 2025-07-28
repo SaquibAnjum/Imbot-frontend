@@ -14,7 +14,7 @@ export default function Header() {
   const [searchBox, setSearchBox] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const { user } = useContext(UserContext);
-  console.log(user)
+  // console.log(user)
   const [searchResults, setSearchResults] = useState([]);
   const searchBoxRef = useRef(null);
   useEffect(() => {
