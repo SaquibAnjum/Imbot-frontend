@@ -15,12 +15,12 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./screenshots/dashboard.png" alt="IMBOT Dashboard" width="45%">
-  <img src="./screenshots/chat-interface.png" alt="Chat Interface" width="45%">
+  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192622.png" alt="IMBOT Dashboard" width="45%">
+  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 193109.png" alt="Chat Interface" width="45%">
 </div>
 <div align="center">
-  <img src="./screenshots/bot-training.png" alt="Bot Training" width="45%">
-  <img src="./screenshots/bot-sharing.png" alt="Bot Sharing" width="45%">
+  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192658.png" alt="Prising" width="45%">
+  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192638.png" alt="Bot Features" width="45%">
 </div>
 
 ---
