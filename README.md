@@ -10,18 +10,8 @@
 **IMBOT** is a **smart AI-powered chatbot builder** that empowers users to **train custom chatbots** using their own data (Text/PDF files) and interact with them in real-time. Built with the **MERN stack** and powered by **Google Gen AI**, IMBOT delivers a seamless, scalable, and intelligent chatbot creation experience.
 
 ## 🌟 Live Demo
-🔗 **[Try IMBOT Now](https://your-imbot-demo.com)**
+🔗 **[Try IMBOT Now]([https://your-imbot-demo.com](https://imbot-saquib.vercel.app/))**
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192622.png" alt="IMBOT Dashboard" width="45%">
-  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 193109.png" alt="Chat Interface" width="45%">
-</div>
-<div align="center">
-  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192658.png" alt="Prising" width="45%">
-  <img src="C:\Users\MD SAQUIB\OneDrive\Pictures\Screenshots\Screenshot 2025-08-29 192638.png" alt="Bot Features" width="45%">
-</div>
 
 ---
 
