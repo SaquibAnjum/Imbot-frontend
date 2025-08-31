@@ -5,7 +5,7 @@ import { IoSend } from "react-icons/io5";
 import { BsVolumeUp, BsVolumeMute } from "react-icons/bs";
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI("AIzaSyAPMXpo85GlPN-gAcmqkidHH74iZFBN5v4");
+const genAI = new GoogleGenerativeAI("AIzaSyBkRT2QjqzjRiRfbAqj3_F3Sw-cOLLMRK8");
 
 const BotDetail = () => {
     const { botId } = useParams();
